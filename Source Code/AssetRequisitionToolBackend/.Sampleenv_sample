@@ -1,0 +1,13 @@
+
+TABLENAME="assetRequisitionTool"
+REGION="ap-south-1"
+ENDPOINT="http://localhost:8000"
+FILEPATH="./uploads"
+TokenKey =    d1cfd00858d5d662f335a233fc4986119a
+              23839ca419ebd1e8dd29419f9151d47e
+              15c14e47ead8e24805cc1135a487428f
+              2620298dbcb4af527f07d4cac53476
+
+EMAILFUNCTION= true   
+           
+PORT="5000"

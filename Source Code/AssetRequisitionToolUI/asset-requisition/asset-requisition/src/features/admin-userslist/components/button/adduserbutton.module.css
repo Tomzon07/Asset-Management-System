@@ -1,0 +1,32 @@
+.button {
+  width: 120px;
+  height: 54px;
+  border-radius: 10px;
+  background-color: #415a90;
+  color: white;
+  place-content: center;
+  margin-right: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button:hover {
+  background-color: rgba(65, 90, 144, 0.9);
+}
+.button:active {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: rgba(65, 90, 144, 1);
+}
+
+
+@media screen and (max-width:550px){
+    .button{
+        
+        height: 45px;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 0;
+    }
+}

@@ -1,0 +1,16 @@
+.css-79ws1d-MuiModal-root{
+    z-index: 900 !important;
+}
+.p-multiselect .p-multiselect-label.p-placeholder {
+    color: black !important;
+    font-family: "Poppins", sans-serif !important;
+}
+.p-multiselect .p-multiselect-label {
+    padding: 0 !important;
+}
+
+.css-8ndowl {
+    position: fixed !important;
+    z-index: 600 !important;
+    inset: 0px !important;
+}

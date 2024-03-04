@@ -1,0 +1,2 @@
+name,email,employeeId,department,permission
+Name must contain  only alphabetic characters,email must be valid,employee Id can contains only Integer value.,"The department consists:FINANCE,CISO,INFRASTRUCTURE,HR,DEVELOPMENT,QA","The permission consists:HEAD,MANAGER,ADMIN"

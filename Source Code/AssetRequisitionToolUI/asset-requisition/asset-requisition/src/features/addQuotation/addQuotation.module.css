@@ -1,0 +1,278 @@
+/* -------------------------------------------------------------default---------------------------------------------------------------------------- */
+.modal {
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: none;
+  box-shadow: 24;
+  padding: 30px;
+  width: 50%;
+  max-width: 750px;
+  max-height: 88vh;
+  overflow-y: auto;
+}
+
+.modal:active {
+  border: none;
+}
+.title {
+  margin-left: 25px;
+}
+
+.error:focus-visible {
+  outline-color: red !important;
+}
+
+.titleDiv {
+  height: 64px;
+  width: 100%;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modalTitle {
+  color: black;
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+.formDiv {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 25px;
+  margin-right: 25px;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.textField {
+  width: 99%;
+  height: 50px;
+  border: 1px #a7a7a7 solid;
+  border-radius: 7px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 18px;
+}
+.fileSelect {
+  padding-top: 11px;
+}
+.addBtn{
+  margin-left: 22px;
+  border: none;
+  color: #007bff;
+  background: white;
+  cursor: pointer;
+  font-size: 17px;
+  height: 40px;
+  border-radius: 4px;
+ 
+}
+.addBtn:hover {
+  background: rgba(105, 107, 107, 0.1);
+ }
+.error {
+  color: red;
+  padding: 0;
+  margin: 0;
+  height: 40px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.textField:focus-visible {
+  outline-color: rgba(128, 128, 128, 0.7);
+  border: none;
+}
+
+.select {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 76%;
+  padding-left: 20px;
+  background-color: transparent;
+  border-radius: 7px;
+  position: relative;
+  font-size: 17px;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAUCAMAAACtdX32AAAAdVBMVEUAAAD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhMdQaAAAAJ3RSTlMAAAECAwQGBwsOFBwkJTg5RUZ4eYCHkJefpaytrsXGy8zW3+Do8vNn0bsyAAAAYElEQVR42tXROwJDQAAA0Ymw1p9kiT+L5P5HVEi3qJn2lcPjtIuzUIJ/rhIGy762N3XaThqMN1ZPALsZPEzG1x8LrFL77DHBnEMxBewz0fJ6LyFHTPL7xhwzWYrJ9z22AqmQBV757MHfAAAAAElFTkSuQmCC);
+  background-position: 100%;
+  background-repeat: no-repeat;
+  border: 1px #a7a7a7 solid !important;
+  cursor: pointer;
+  color: black !important;
+}
+
+.select:focus {
+  outline-color: rgba(128, 128, 128, 0.7);
+}
+.select:hover {
+  outline-color: none;
+}
+
+.formLabel {
+  color: black;
+  font-size: 20px;
+}
+
+.formLabel::after {
+  content: "*";
+  color: red;
+}
+
+.closeButton:hover {
+  background-color: grey(128, 128, 128, 0.2);
+}
+
+.button {
+  width: 170px;
+  background-color: #415a90;
+  height: 50px;
+  display: grid;
+  place-content: center;
+  font-size: 20px;
+  color: white;
+  border-radius: 7px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-right: 26px;
+}
+.button2 {
+  width: 170px;
+  background-color: #415a90;
+  opacity: 0.5;
+  height: 50px;
+  display: grid;
+  place-content: center;
+  font-size: 20px;
+  color: white;
+  border-radius: 7px;
+  cursor: default;
+  text-decoration: none;
+  margin-right: 26px;
+}
+
+.button:hover {
+  background-color: rgba(65, 90, 144, 0.9);
+}
+
+.button:active {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: rgba(65, 90, 144, 1);
+}
+
+.errors {
+  display: flex;
+  color: red;
+  margin-left: 26%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 37px;
+  align-items: center;
+}
+
+/* ----------------------------------------------------------------------small screen desktop----------------------------------------------------------- */
+
+@media screen and (max-width: 1280px) {
+  .select {
+    width: 77%;
+  }
+
+  .modal {
+    max-height: 83vh;
+    overflow-y: auto;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  .modal {
+    max-height: 90vh;
+    overflow-y: auto;
+    width: 85%;
+    padding: 20px;
+  }
+
+  .select {
+    width: 76%;
+  }
+
+  .button {
+    margin-bottom: 20px;
+  }
+
+  .titleDiv {
+    margin-top: 20px;
+  }
+}
+
+/* ----------------------------------------------------------------------phone & Tablet----------------------------------------------------------- */
+
+@media screen and (max-width: 800px) {
+  .formDiv {
+    justify-content: start;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .textField {
+    width: 100%;
+    margin-top: 10px;
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+
+  .select {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .button {
+    width: 100%;
+    margin-left: 25px;
+    margin-top: 10px;
+  }
+
+  .errors {
+    margin-left: 26px;
+  }
+
+  .modal {
+    height: 90%;
+    overflow-y: scroll;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .textField {
+    width: 100%;
+    margin-top: 10px;
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+
+  .select {
+    width: 101%;
+  }
+
+  .button {
+    margin-right: 23px;
+  }
+}

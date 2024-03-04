@@ -1,0 +1,350 @@
+body{
+    overflow-y: hidden !important;
+}
+
+.title {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.categoryDiv {
+    height: 16vh;
+    width: calc(100vw - 285px);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+
+.btn {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #415a90;
+    color: white;
+    display: grid;
+    place-content: center;
+    margin-right: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 50px;
+    border: none;
+    font-size: 17px
+}
+
+.noRecord {
+    width: 100%;
+    height: 500px;
+    /* background-color: red; */
+    display: grid;
+    text-align: center;
+    place-content: center;
+    justify-content: center;
+}
+
+.btnDiv {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    margin-top: 15px;
+}
+
+.btn:active {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.categoryCard {
+    border-radius: 10px;
+    min-width: 20%;
+    margin: 10px 10px 10px 0;
+    width: 97%;
+    background-color: green;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.categoryTitle {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 6vh;
+    margin-top: 10px;
+    color: white;
+    font-size: clamp(1.375rem, 1.3199rem + 0.2941vw, 1.6875rem);
+    font-weight: 500;
+    margin-bottom: 0px;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+
+.categoryCount {
+    color: white;
+    font-size: clamp(1.625rem, 1.4706rem + 0.8235vw, 2.5rem);
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    box-sizing: border-box;
+
+}
+
+.selectDiv {
+    width: 30%;
+    align-items: center;
+    display: flex;
+}
+
+.buttonDiv {
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.select {
+    height: 50px;
+    width: 200px;
+    padding-left: 20px;
+    background-color: transparent;
+    border-radius: 7px;
+    position: relative;
+    font-size: 18px;
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    appearance: none;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAUCAMAAACtdX32AAAAdVBMVEUAAAD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhMdQaAAAAJ3RSTlMAAAECAwQGBwsOFBwkJTg5RUZ4eYCHkJefpaytrsXGy8zW3+Do8vNn0bsyAAAAYElEQVR42tXROwJDQAAA0Ymw1p9kiT+L5P5HVEi3qJn2lcPjtIuzUIJ/rhIGy762N3XaThqMN1ZPALsZPEzG1x8LrFL77DHBnEMxBewz0fJ6LyFHTPL7xhwzWYrJ9z22AqmQBV757MHfAAAAAElFTkSuQmCC);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    border: 1px #a7a7a7 solid;
+}
+
+@media screen and (max-width:1300px) {
+    .categoryCard {
+        width: 96%;
+        min-width: 96%;
+    }
+
+    .categoryDiv {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+.modal {
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: none;
+    box-shadow: 24;
+    padding: 30px;
+    width: 35%;
+    max-width: 750px;
+    max-height: 88vh;
+}
+
+.modal:active {
+    border: none;
+}
+
+.titleDiv {
+    height: 64px;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modalTitle {
+    color: black;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.formDiv {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-right: 25px;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.textField {
+    width: 70%;
+    height: 50px;
+    border: 1px #a7a7a7 solid;
+    border-radius: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    margin-left: 20px;
+
+}
+
+
+.textField:focus-visible {
+    outline-color: rgba(128, 128, 128, 0.7);
+    border: none;
+}
+
+
+.button {
+    width: 170px;
+    background-color: #415a90;
+    height: 50px;
+    display: grid;
+    place-content: center;
+    font-size: 20px;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 26px;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: rgba(65, 90, 144, 0.9);
+}
+
+.button:active {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: rgba(65, 90, 144, 1);
+}
+
+.formLabel {
+    color: black;
+    font-size: 20px;
+}
+
+.errors {
+    display: flex;
+    color: red;
+    margin-left: 26%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 37px;
+    align-items: center;
+}
+
+.error:focus-visible {
+    outline-color: red !important;
+}
+
+
+/* ------------------------------------------------------------------------------------tablet--------------------------------------------------------------------------------------- */
+@media screen and (max-width:950px) {
+    .categoryDiv {
+        grid-template-columns: repeat(3, 1fr);
+        width: 98vw;
+    }
+
+    .title {
+        margin-left: 10px;
+        font-size: 24px;
+        margin-top: 0px;
+        margin-bottom: 0;
+    }
+
+    .categoryCard {
+        width: 96%;
+        min-width: 30%;
+        margin-left: 10px;
+    }
+
+
+    .btn {
+        padding-left: 13px;
+        padding-right: 13px;
+        font-size: 17px;
+        height: 46px
+    }
+
+    .selectDiv {
+        margin-left: 10px;
+    }
+
+    .modal {
+        max-height: 100vw;
+        width: 45%;
+        padding: 25px;
+    }
+}
+
+/* -----------------------------------------------------------------------------------mobile--------------------------------------------------------------------------------------- */
+
+@media screen and (max-width:600px) {
+    .categoryCard {
+        width: 93%;
+        min-width: 93%;
+    }
+
+    .categoryDiv {
+        height: 13vh;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .categoryTitle {
+        /* font-size: 5vw; */
+        margin-top: 7px;
+    }
+
+    .categoryCount {
+        margin-bottom: 10px;
+    }
+
+    .btn {
+        font-size: 14px;
+        height: 38px
+    }
+
+    .select {
+        width: 100%;
+        height: 38px;
+        padding-left: 8px;
+        font-size: 14px;
+    }
+
+    .selectDiv {
+        margin-right: 10px;
+    }
+
+    .textField {
+        width: 80%;
+        margin-top: 10px;
+        padding-left: 4%;
+        padding-right: 4%;
+        height: 35px;
+        /* font-size: 200px; */
+    }
+
+    .button {
+        margin-right: 18%;
+        width: 70%;
+        height: 40px;
+        /* display: flex; */
+    }
+
+    .modalTitle {
+        font-size: larger
+    }
+
+    .formDiv {
+        justify-content: start;
+        flex-direction: column;
+        font-size: 3vh;
+    }
+}

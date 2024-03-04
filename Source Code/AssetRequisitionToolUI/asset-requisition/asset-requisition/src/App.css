@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  padding: 0 !important;
+  font-family: "Poppins", sans-serif;
+  align-items: center;
+  background-color: #f7f9fb;
+}
+
+html.swal2-shown,
+body.swal2-shown {
+  overflow-y: auto !important;
+}

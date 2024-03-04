@@ -1,0 +1,35 @@
+.table {
+  margin-left: 00px;
+  border-radius: 10px;
+  /* padding-right: 10px; */
+}
+.closeBtn {
+  color: red !important;
+}
+
+.closeBtn:hover {
+  background-color: red !important;
+  color: white !important;
+}
+
+.confirmBtn {
+  color: #0d75f8 !important
+}
+
+.confirmBtn:hover {
+  color: white !important;
+  background-color: #0d75f8 !important;
+
+}
+
+/* @media screen and (max-width: 1090px) {
+  .table{
+    width: 90%;
+  }
+} */
+@media screen and (max-width: 950px) {
+  .table {
+    width: 97%;
+    margin-left: 2vw;
+  }
+}

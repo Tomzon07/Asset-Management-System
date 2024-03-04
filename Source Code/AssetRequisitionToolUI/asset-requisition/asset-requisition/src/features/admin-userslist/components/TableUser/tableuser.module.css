@@ -1,0 +1,41 @@
+.dialogTitle {
+  margin-right: 200px !important;
+}
+
+.closeBtn {
+  color: red !important;
+}
+
+.closeBtn:hover {
+  background-color: red !important;
+  color: white !important;
+}
+
+.confirmBtn {
+  color: #0d75f8 !important;
+}
+.confirmBtn:hover {
+  color: white !important;
+  background-color: #0d75f8 !important;
+}
+
+@media screen and (max-width: 500px) {
+  .dialogTitle {
+    margin-right: 0 !important;
+  }
+}
+
+@media screen and (max-width: 1560px) {
+  .cell {
+    max-width: 140px;
+    width: 140px;
+    min-width: 140px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .paper {
+    margin: auto;
+    width: 97.5%;
+  }
+}
