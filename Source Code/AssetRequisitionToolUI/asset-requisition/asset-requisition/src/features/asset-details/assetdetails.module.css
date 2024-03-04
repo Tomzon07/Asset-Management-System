@@ -1,0 +1,247 @@
+.userDashboard {
+    width: 100%;
+    height: 100%;
+  
+  }
+  
+  .navBar {
+    transition: transform 1s ease-out;
+  }
+  
+  .adminDashBoard {
+    /* padding: 10px; */
+    width: 100%;
+    justify-content: center;
+  
+  }
+  
+  .ticketdetails {
+    margin: 10px;
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 30px;
+    text-align: center;
+    justify-content: center;
+    overflow-y: auto;
+  
+  }
+  
+  .title {
+    font-size: 32px;
+    color: #0A356B;
+    font-weight: 600;
+  }
+  
+  
+  .detailsDiv {
+    width: 100%;
+  
+    min-height: 60px;
+    margin: auto;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .detailtitle {
+    font-size: 22px;
+  
+  
+  }
+  
+  .buttonDiv {
+    width: 71%;
+  
+    min-height: 60px;
+    margin: auto;
+  
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: flex-end;
+    align-items: center;
+  
+  
+  
+  }
+  
+  .detail {
+    font-size: 19px;
+    margin-left: 12px;
+  }
+  
+  .detaildField {
+    word-break: break-all;
+    width: 70%;
+    max-width: 500px;
+    min-height: 60px;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 7px;
+    align-items: flex-start;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  .detailRequirement {
+    font-size: 19px;
+    margin-right: 11px;
+    margin-left: 12px;
+    margin-top: 15px;
+  
+  }
+  
+  .button {
+    width: 120px;
+    height: 54px;
+    border-radius: 10px;
+    background-color: #22b30c;
+    color: white;
+    display: grid;
+    place-content: center;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .approveRrejectbtn {
+    width: 160px;
+    height: 55px;
+    border-radius: 10px;
+    background-color: #06a711;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .estimate {
+    margin-top: 15px;
+  }
+  
+  .closeBtn {
+    color: red !important;
+  }
+  
+  .closeBtn:hover {
+    background-color: red !important;
+    color: white !important;
+  }
+  
+  .confirmBtn {
+    color: #0d75f8 !important
+  }
+  
+  .confirmBtn:hover {
+    color: white !important;
+    background-color: #0d75f8 !important;
+  
+  }
+  
+  .button:hover {
+    background-color: rgba(230, 237, 226, 0.9);
+  }
+  
+  .button:active {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: rgba(65, 90, 144, 1);
+  }
+  
+  @media screen and (min-width:1300px) {
+    .detailsDiv {
+      width: 70%
+    }
+  
+  }
+  
+  @media screen and (max-width:1300px) {
+    .buttonDiv {
+      width: 100%;
+    }
+  
+  
+  }
+  
+  @media screen and (max-width:950px) {
+    .detailsDiv {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width:800px) {
+    .detailsDiv {
+      flex-direction: column;
+      align-items: flex-start;
+  
+    }
+  
+    .detaildField {
+      width: 100%;
+      max-width: 700px;
+    }
+  }
+  
+  @media screen and (max-width:550px) {
+    .buttonDiv {
+      justify-content: none;
+      flex-direction: column;
+    }
+  
+    .ticketdetails {
+      width: 85%;
+    }
+  
+    .approveRrejectbtn {
+      width: 100%;
+      font-size: 15px;
+      margin-right: 20px;
+      height: 47px;
+    }
+  
+    .stepper {
+      width: 75%;
+      min-width: none;
+      overflow-x: auto;
+      scroll-snap-type: step;
+    }
+  
+    .detailtitle {
+      font-size: 17px;
+    }
+  
+    .detaildField {
+      min-height: 45px;
+    }
+  
+    .detail {
+      font-size: 15px;
+      margin-left: 12px;
+    }
+  
+    .detailRequirement {
+      font-size: 15px;
+    }
+  }
+  
+  @media screen and (max-width:300px) {
+  
+    .title {
+      font-size: 28px;
+    }
+  
+    .detailtitle {
+      font-size: 17px;
+    }
+  
+    .ticketdetails {
+      width: 70%;
+    }
+  }

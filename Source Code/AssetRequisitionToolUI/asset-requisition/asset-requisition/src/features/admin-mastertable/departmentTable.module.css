@@ -1,0 +1,50 @@
+.table {
+    margin-left: 00px;
+    border-radius: 10px;
+    /* padding-right: 10px; */
+  }
+  .closeBtn {
+    color: red !important;
+  }
+  
+  .closeBtn:hover {
+    background-color: red !important;
+    color: white !important;
+  }
+  
+  .confirmBtn {
+    color: #0d75f8 !important
+  }
+  
+  .confirmBtn:hover {
+    color: white !important;
+    background-color: #0d75f8 !important;
+  
+  }
+  
+  .scroll::-webkit-scrollbar{
+    width: 7px;
+    background-color: #d3d3d3;
+
+  }
+
+  .scroll::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 6px rgba(150, 150, 150, 0.3);
+    background-color: rgb(102, 102, 102);
+  }
+
+
+
+  /* @media screen and (max-width: 1090px) {
+    .table{
+      width: 90%;
+    }
+  } */
+  @media screen and (max-width: 950px) {
+    .table {
+      width: 97%;
+      margin-left: 2vw;
+    }
+  }
+  

@@ -1,0 +1,69 @@
+.closeBtn {
+    color: red !important;
+  }
+  
+  .closeBtn:hover {
+    background-color: red !important;
+    color: white !important;
+  }
+  
+  .confirmBtn {
+    color: #0d75f8 !important
+  }
+  
+  .confirmBtn:hover {
+    color: white !important;
+    background-color: #0d75f8 !important;
+  
+  }
+
+  .error {
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1.66;
+    letter-spacing: 0.03333em;
+    text-align: left;
+    margin-top: 3px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    color: rgb(252, 35, 35);
+    /* border: 1px #f50000 solid; */
+
+  }
+  
+
+  .file{
+    width: 99%;
+    height: 38px;
+    border: 1px #a7a7a7 solid;
+    border-radius: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 11px;
+    padding: 8px;
+    font-style: inherit;
+
+  }
+
+  .label{
+    font: inherit;
+    letter-spacing: inherit;
+    color: currentColor;
+    padding: 4px 0 5px;
+    border: 0;
+    box-sizing: content-box;
+    background: none;
+    height: 1.4375em;
+    margin: 0;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    min-width: 0;
+    width: 100%;
+  }
+
+  /* .label::after{
+    content: "*";
+    color: red;
+  } */

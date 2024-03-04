@@ -1,0 +1,18 @@
+
+.closeBtn {
+    color: red !important;
+  }
+  
+  .closeBtn:hover {
+    background-color: red !important;
+    color: white !important;
+  }
+  
+  .confirmBtn {
+    color: #0d75f8 !important;
+  }
+  
+  .confirmBtn:hover {
+    color: white !important;
+    background-color: #0d75f8 !important;
+  }

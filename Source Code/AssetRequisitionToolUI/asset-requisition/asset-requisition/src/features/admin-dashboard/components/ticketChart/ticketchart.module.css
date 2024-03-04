@@ -1,0 +1,61 @@
+.ticketChart{
+    cursor: pointer;
+    width: 155px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.outerCircle{
+    width: 155px;
+    background-color: blue;
+    height: 155px;
+    max-height: 175px;
+    max-width: 175px;
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+    
+}
+.innerCircle{
+    width: 140px;
+    background-color: white;
+    height: 140px;
+    border-radius: 50%;
+    display: grid;
+    place-content: center;    
+}
+
+.title{
+    font-size: 19px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.count{
+    font-size: 37px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 650px) {
+    .ticketChart{
+        width: 29vw;
+       
+    }
+    .outerCircle{
+        width: 29vw;
+        height: 29vw;
+    }
+
+    .title{
+        font-size: 16px;
+    }
+    .innerCircle{
+        width: 25vw;
+        height: 25vw;
+    }
+}
+@media screen and (max-width: 550px) {
+    .count{
+        font-size: 7vw;
+    }
+}

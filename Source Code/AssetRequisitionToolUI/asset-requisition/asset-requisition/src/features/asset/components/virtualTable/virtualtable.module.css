@@ -1,0 +1,79 @@
+.paginationDiv {
+    height: 40px;
+    border-radius: 0 0 10px 10px;
+    /* background-color: green; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.arrow {
+    height: 30px;
+    width: 30px;
+    /* background-color: red; */
+    display: grid;
+    place-content: center;
+    margin-right: 20px;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 50px;
+    font-size: 30px;
+
+}
+
+.arrow:hover {
+    background-color: rgba(128, 128, 128, 0.6);
+
+}
+
+.paper {
+    width: 99%;
+}
+
+.cell {
+    max-width: 180px;
+    width: 180px;
+    min-width: 180px;
+}
+
+.closeBtn {
+    color: red !important;
+}
+
+.closeBtn:hover {
+    background-color: red !important;
+    color: white !important;
+}
+
+.confirmBtn {
+    color: #0d75f8 !important
+}
+
+.confirmBtn:hover {
+    color: white !important;
+    background-color: #0d75f8 !important;
+
+}
+
+.dialogTitle {
+    margin-right: 200px !important;
+}
+
+@media screen and (max-width:1560px) {
+    .cell {
+        max-width: 140px;
+        width: 140px;
+        min-width: 140px;
+
+
+    }
+
+}
+
+@media screen and (max-width:950px) {
+    .paper {
+        margin: auto;
+        width: 97.5%;
+    }
+
+}

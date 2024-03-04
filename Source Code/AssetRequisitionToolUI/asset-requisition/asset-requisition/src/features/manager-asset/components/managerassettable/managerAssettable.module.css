@@ -1,0 +1,24 @@
+.paper {
+  width: 99%;
+}
+
+.cell {
+  max-width: 200px;
+  width: 200px;
+  min-width: 200px;
+}
+
+@media screen and (max-width: 1560px) {
+  .cell {
+    max-width: 140px;
+    width: 140px;
+    min-width: 140px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .paper {
+    margin: auto;
+    width: 97.5%;
+  }
+}

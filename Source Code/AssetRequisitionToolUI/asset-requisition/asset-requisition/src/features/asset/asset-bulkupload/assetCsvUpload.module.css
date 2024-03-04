@@ -1,0 +1,106 @@
+.modal {
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: none !important;
+  box-shadow: 24;
+  padding: 50px;
+  width: 30%;
+  /* height:40%; */
+  height: auto;
+  /* max-width: 300px; */
+  justify-content: center;
+  overflow: hidden !important;
+}
+
+.error:focus-visible {
+  outline-color: red !important;
+}
+
+.textField {
+  width: 59%;
+  max-width: 59%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: auto;
+  border: 1px #a7a7a7 solid;
+  border-radius: 7px;
+  padding: 8px 20px;
+  font-size: 15px;
+  margin-left: 0;
+}
+.button {
+  width: 50%;
+  background-color: #0a356b;
+  height: 35px;
+  display: grid;
+  font-size: 17px;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  padding-top: 10px;
+  margin: auto;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: rgba(19, 44, 97, 0.9);
+}
+
+.button:active {
+  background-color: rgb(54, 85, 151);
+}
+.csvButton {
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: #0a356b;
+  border: none;
+  color: white;
+  height: 30px;
+  cursor: pointer;
+  font-size: 11px;
+}
+
+.roundbutton {
+  border-radius: 50%;
+  height: 42px;
+  width: 42px;
+  display: grid;
+  place-content: center;
+  margin-left: 92%;
+  margin-top: 0.2%;
+}
+
+.roundbutton:hover {
+  background-color: rgba(169, 169, 169, 0.5);
+}
+
+.scroll {
+  overflow-y: scroll;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  height: 95px;
+  max-width: 100%;
+}
+
+.scroll::-webkit-scrollbar {
+  width: 8px;
+  background-color: #f5f5f5;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(185, 185, 185, 0.3);
+  background-color: rgb(145, 145, 145);
+}
+
+@media screen and (max-width: 550px) {
+  .scroll {
+    font-size: 12px;
+  }
+}
